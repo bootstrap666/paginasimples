@@ -29,3 +29,8 @@ a:hover {
   text-decoration: underline;
 }
 
+.profile-pic {
+  width: 80px;  /* adjust as needed */
+  height: 80px;
+  border-radius: 50%;
+}
