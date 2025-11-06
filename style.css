@@ -1,18 +1,31 @@
 /* style.css */
 
-/* You can add custom styles here */
+/* Custom styles for Dr. Marcos Hideo Maruo website */
 
 body {
   scroll-behavior: smooth;
 }
 
-/* Example: Customize section headings */
 h2 {
   color: #1e3a8a; /* dark blue */
 }
 
-/* Optional: Hover effect for publication items */
 ul li:hover {
   transform: translateY(-2px);
   transition: transform 0.2s;
 }
+
+/* Publications list hover effect */
+ul.publications li:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Optional: style links */
+a {
+  color: #1d4ed8;
+}
+a:hover {
+  text-decoration: underline;
+}
+
